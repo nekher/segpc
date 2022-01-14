@@ -18,7 +18,7 @@ body {
 
 
 .content {
-  height: 110vh;
+  height: 100vh;
   background-image: url(../img/sop-login.jpg);
   background-color: #333;
   background-blend-mode: soft-light; 
@@ -301,6 +301,7 @@ a {
 a:hover {
   color: rgb(255, 255, 255);
 }
+
 
 @media screen and (max-width: 550px) {
   .container {
