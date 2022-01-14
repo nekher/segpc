@@ -133,3 +133,13 @@ body {
     }
   }
   
+  /* css de navbar starts here */
+  
+  :root{
+    --background: rgba(0, 0, 0, 0.61);
+  }
+   
+  *, *::before, *::after{
+    box-sizing:border-box;
+  }
+ 
