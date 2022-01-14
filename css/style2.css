@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:300,600');
 
 :root {
-  --background: rgba(47, 27, 94, 0.315);
+  --background: rgba(91, 15, 110, 0.315);
 }
 
 *, *::before, *::after {
@@ -13,7 +13,9 @@ body {
 	background: #222;
 	font-family: 'Work Sans', sans-serif;
 	font-weight: 400;
+  color: white;
 }
+
 
 .content {
   height: 110vh;
@@ -115,7 +117,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #000;
+  color: rgb(161, 24, 139);
 }
 
 .nav-toggle:checked ~ nav {
@@ -139,6 +141,8 @@ nav a:hover {
   
   .logo {
     grid-column: 2 / 3;
+   height: 3rem;
+   margin-top: .75rem;
   }
   
   nav {
@@ -178,9 +182,9 @@ nav a:hover {
     content: '';
     display: block;
     height: 5px;
-    background: black;
+    background: rgb(85, 11, 145);
     position: absolute;
-    top: -.75em;
+    bottom: -.75em;
     left: 0;
     right: 0;
     transform: scale(0, 1);
@@ -192,29 +196,6 @@ nav a:hover {
   }
 }
 /* test css index */
-body {
-  padding: 0;
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  color: white;
-}
-
-.background {
-  background: url("../img/sop-login.jpg")
-    rgba(0, 0, 0, 0.61);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-blend-mode: darken;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: -1;
-  filter: blur(5px);
-  min-height: 800px;
-
-}
 
 .container {
   display: flex;
@@ -224,11 +205,11 @@ body {
   width: 500px;
   margin: 10vh auto;
   background: transparent;
-  box-shadow: 0 0 15px rgb(255, 255, 255);
+  box-shadow: 0 0 10px rgb(69, 6, 151);
   border-radius: 25px;
 }
 h2 {
-  font-size: 30px;
+  font-size: 40px;
 }
 
 form {
@@ -244,10 +225,10 @@ form {
   margin: 10px auto;
   border-radius: 15px;
   align-items: center;
-  border-bottom: 1px solid rgb(82, 81, 81);
+  border-bottom: 1px solid rgb(68, 3, 68);
 }
 .form-item:hover {
-  border: 1px solid rgb(82, 81, 81);
+  border: 1px solid rgb(100, 10, 141);
 }
 input {
   background: transparent;
@@ -256,15 +237,15 @@ input {
   outline: none;
   border: none;
   margin: auto;
-  color: white;
+  color: rgb(252, 183, 246);
   font-size: 17px;
 }
 
 span {
   user-select: none;
   margin: 5px;
-  color: rgb(172, 172, 172);
-  background: rgba(85, 81, 81, 0.637);
+  color: rgba(255, 254, 254, 0.815);
+  background: rgba(103, 6, 133, 0.637);
   padding: 5px;
   border-radius: 18px;
 }
@@ -273,12 +254,12 @@ button[type="submit"] {
   font-size: 20px;
   margin: 10px auto;
   padding: 8px;
-  background: rgba(122, 123, 116, 0.72);
+  background: rgba(37, 17, 155, 0.72);
   border: none;
   color: white;
 }
 button[type="submit"]:hover {
-  background: rgba(222, 236, 34, 0.678);
+  background: rgba(172, 13, 13, 0.678);
 }
 p:first-of-type {
   margin: 0;
@@ -318,7 +299,7 @@ a {
   color: white;
 }
 a:hover {
-  color: grey;
+  color: rgb(255, 255, 255);
 }
 
 @media screen and (max-width: 550px) {
