@@ -17,9 +17,9 @@
     <input type="checkbox" id="nav-toggle" class="nav-toggle">
     <nav>
       <ul>
-        <li><a href="#">inicio</a></li>
-        <li><a href="#">Seguimiento</a></li>
-        <li><a href="#">Recursos</a></li>
+        <li><a href="./index.php">inicio</a></li>
+        <li><a href="./seguimiento.php">Seguimiento</a></li>
+        <li><a href="./recursos.php">Recursos</a></li>
         <li><a href="./login.php" rel="html">Login/Logout</a></li>
       </ul>
     </nav>

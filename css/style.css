@@ -208,6 +208,8 @@ nav a:hover {
   box-shadow: 0 0 10px rgb(69, 6, 151);
   border-radius: 25px;
 }
+
+
 h2 {
   font-size: 40px;
 }
@@ -261,6 +263,19 @@ button[type="submit"] {
 button[type="submit"]:hover {
   background: rgba(172, 13, 13, 0.678);
 }
+button[type="submit2"] {
+  width: 180px;
+  font-size: 14px;
+  margin: 5px auto;
+  padding: 5px;
+  border-radius: 10px;
+  background: rgba(37, 17, 155, 0.72);
+  border: none;
+  color: white;
+}
+button[type="submit2"]:hover {
+  background: rgba(172, 13, 13, 0.678);
+}
 p:first-of-type {
   margin: 0;
 }
@@ -308,12 +323,18 @@ a:hover {
     width: 90%;
   }
 }
-
+/*
 .transparent-header{
 padding: 2rem;
 }
-  
+  */
 .titulo {
   padding:5rem;
   text-align:  center;
+ }
+
+.noticias {
+ border-style: double;
+ border-color: rgb(107, 55, 72);
+ border-width: 3px;
 }
