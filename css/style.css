@@ -232,6 +232,7 @@ form {
 .form-item:hover {
   border: 1px solid rgb(100, 10, 141);
 }
+
 input {
   background: transparent;
   width: 80%;
@@ -337,4 +338,11 @@ padding: 2rem;
  border-style: double;
  border-color: rgb(107, 55, 72);
  border-width: 3px;
+}
+
+.botones{
+  display:flex;
+  justify-content: center;
+  align-content: space-around;
+
 }

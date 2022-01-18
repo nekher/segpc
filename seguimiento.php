@@ -12,8 +12,8 @@
   <!-- for form container -->
   <div class="container">
   <h2>Seguimiento</h2>
-  <button type="submit2">CREAR EQUIPO</button>
-  <button type="submit2">BUSCAR EQUIPO</button>
+  <a href="./crear-equipo.php"><button type="submit2">CREAR EQUIPO</button>
+  <a href="./buscar-equipo.php"><button type="submit2">BUSCAR EQUIPO</button>
 </div>
    <!-- for form container -->
    <div class="container">

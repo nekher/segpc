@@ -30,9 +30,10 @@
       
       <p></p>
       <p></p>
-
+<div class="botones">
       <button type="submit">LOGIN</button>
-
+      <button type="submit">LOGOUT</button>
+</div>
       <p></p>
       <p></p>
 
