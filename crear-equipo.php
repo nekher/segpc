@@ -1,5 +1,5 @@
 <?php
-
+/*
 $numeropc = $_POST['numeropc'];
 $piso = $_POST['piso'];
 $area = $_POST['area'];
@@ -7,22 +7,24 @@ $interno = $_POST['interno'];
 $usuario = $_POST['usuario'];
 $problema = $_POST['problema'];
 $serial = $_POST['serial'];
-
+*/
 //database connection
 
-$conn = new mysqli('localhost', 'root', '', 'segpc');
-if($conn->connect_error){
-    die ('fallo la conexion con la base de datos : ' .$conn->connect_error);
-    }    else {
+$conn = new mysqli ('localhost', 'segpc', '1234', 'segpc');
+if(!$conn){
+echo 'Error de conexion:' . mysqli_error();
+}
+/*
+ else {
         $stmt = $conn->prepare("ingresar en el registro (numeropc, piso, area, interno, usuario, problema, serial)
         values (?,?,?,?,?,?,?,)");
         $stmt->bind_param("sisisss", $numeropc, $piso, $area, $interno, $usuario, $problema, $serial);
         $stmt->execute();
         echo "Excelsior";
-        $stmt->close();
+       $stmt->close();
         $conn->close();
-    }
-
+  }
+*/
 
 //if (isset($_POST['submit'])){
 //}
