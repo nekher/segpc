@@ -8,13 +8,13 @@ $usuario = $_POST['usuario'];
 $problema = $_POST['problema'];
 $serial = $_POST['serial'];
 */
+
 //database connection
 
 $conn = new mysqli ('localhost', 'segpc', '1234', 'segpc');
 if(!$conn){
 echo 'Error de conexion:' . mysqli_error();
 }
-/*
  else {
         $stmt = $conn->prepare("ingresar en el registro (numeropc, piso, area, interno, usuario, problema, serial)
         values (?,?,?,?,?,?,?,)");
@@ -24,54 +24,54 @@ echo 'Error de conexion:' . mysqli_error();
        $stmt->close();
         $conn->close();
   }
-*/
 
-//if (isset($_POST['submit'])){
-//}
-//if(empty($_POST['numeropc'])){
-//    echo 'te falto el numero de pc!';
-//}   
-//    else {
-//        echo htmlspecialchars($_POST['numeropc']);
-//    }
-//if(empty($_POST['piso'])){
-//    echo 'Te olvidaste el piso!!!';
-//}   
-//    else {
-//        echo htmlspecialchars( $_POST['piso']);
-//    }
-//if(empty($_POST['area'])){
-//    echo 'Emm.. y el area?!';
-//}   
-//    else {
-//        echo htmlspecialchars($_POST['area']);
-//    }
-//if(empty($_POST['interno'])){
-//    echo 'Se te ocurrio que necesitamos comunicarnos? cual es el interno?!';
-//}   
-//    else {
-//        echo htmlspecialchars($_POST['interno']);
-//    }
-//if(empty($_POST['usuario'])){
-//    echo 'Por quien preguntamos?!';
-//}   
-//    else {
-//        echo htmlspecialchars($_POST['usuario']);
-//    }
-//if(empty($_POST['problema'])){
-//    echo 'Cual es el problema?!';
-//}   
-//    else {
-//        echo htmlspecialchars($_POST['problema']);
-//    }
-//
-//if(empty($_POST['serial'])){
-//    echo 'Numero de Serie. !';
-//}   
-//    else {
-//        echo htmlspecialchars($_POST['serial']);
-//    }
-//
+/*
+if (isset($_POST['submit'])){
+}
+if(empty($_POST['numeropc'])){
+    echo 'te falto el numero de pc!';
+}   
+    else {
+        echo htmlspecialchars($_POST['numeropc']);
+    }
+if(empty($_POST['piso'])){
+    echo 'Te olvidaste el piso!!!';
+}   
+    else {
+        echo htmlspecialchars( $_POST['piso']);
+    }
+if(empty($_POST['area'])){
+    echo 'Emm.. y el area?!';
+}   
+    else {
+        echo htmlspecialchars($_POST['area']);
+    }
+if(empty($_POST['interno'])){
+    echo 'Se te ocurrio que necesitamos comunicarnos? cual es el interno?!';
+}   
+    else {
+        echo htmlspecialchars($_POST['interno']);
+    }
+if(empty($_POST['usuario'])){
+    echo 'Por quien preguntamos?!';
+}   
+    else {
+        echo htmlspecialchars($_POST['usuario']);
+    }
+if(empty($_POST['problema'])){
+    echo 'Cual es el problema?!';
+}   
+    else {
+        echo htmlspecialchars($_POST['problema']);
+    }
+
+if(empty($_POST['serial'])){
+    echo 'Numero de Serie. !';
+}   
+    else {
+        echo htmlspecialchars($_POST['serial']);
+    }
+*/
 
 ?>
 <!DOCTYPE html>
